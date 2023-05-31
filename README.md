@@ -4,7 +4,7 @@
 
 Next Fathom is a component wrapper
 around [`fathom-client`](https://github.com/derrickreimer/fathom-client) that allows you to quickly
-and easily add [Fathom Analytics]([https://usefathom.com](https://usefathom.com/)) to your Next.js
+and easily add [Fathom Analytics](https://usefathom.com) to your Next.js
 projects that use the App Router.
 
 ## Installation
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
-  )
+  );
 }
 ```
 
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
 This package also re-exports everything from
 the [`fathom-client` package](https://github.com/derrickreimer/fathom-client) (
 e.g. `trackPageview`, `trackGoal`, etc.). See
-the [`fathom-client` readme]([https://github.com/derrickreimer/fathom-client#usage](https://github.com/derrickreimer/fathom-client/blob/master/README.md))
+the [`fathom-client` readme](https://github.com/derrickreimer/fathom-client/blob/master/README.md)
 for how to use these.
 
 ## Referrals
