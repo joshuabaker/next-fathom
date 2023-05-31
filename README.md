@@ -27,11 +27,13 @@ In your layout, import and add the `Fathom` component, and add your Site ID to t
 This will load the Fathom client and track page views automatically.
 
 ```jsx
+import { Fathom } from "next-fathom";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Fathom siteId={'MY_FATHOM_ID'} />
+        <Fathom siteId={"MY_FATHOM_ID"} />
         {children}
       </body>
     </html>
