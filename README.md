@@ -33,7 +33,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Fathom siteId={"MY_FATHOM_ID"} />
+        <Fathom
+          siteId={"MY_FATHOM_ID"}
+          options={{ includedDomains: ["https://example.com/"] }}
+        />
         {children}
       </body>
     </html>
