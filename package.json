@@ -1,7 +1,7 @@
 {
   "name": "next-fathom",
   "version": "0.1.0",
-  "description": "Simple integration for using the Fathom client in Next.js projects that use the App Router.",
+  "description": "Add Fathom tracking to Next.js projects that use the App Router.",
   "repository": "git@github.com:joshuabaker/next-fathom.git",
   "author": "Joshua Baker <160484+joshuabaker@users.noreply.github.com>",
   "license": "MIT",
