@@ -32,13 +32,13 @@ import { Fathom } from "next-fathom";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Fathom
-          siteId={"MY_FATHOM_ID"}
-          options={{ includedDomains: ["https://example.com/"] }}
-        />
-        {children}
-      </body>
+    <body>
+    <Fathom
+      siteId={"MY_FATHOM_ID"}
+      options={{ includedDomains: ["https://example.com/"] }}
+    />
+    {children}
+    </body>
     </html>
   );
 }
@@ -47,8 +47,9 @@ export default function RootLayout({ children }) {
 ### Other methods
 
 This package also re-exports everything from
-the [`fathom-client` package](https://github.com/derrickreimer/fathom-client) (
-e.g. `trackPageview`, `trackGoal`, etc.). See
+the [`fathom-client` package](https://github.com/derrickreimer/fathom-client)
+(e.g. `trackGoal`).
+See
 the [`fathom-client` readme](https://github.com/derrickreimer/fathom-client/blob/master/README.md)
 for how to use these.
 
